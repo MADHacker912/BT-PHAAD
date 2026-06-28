@@ -46,9 +46,8 @@ The tool relies on:
 ### 1. Download the Script
 
 ```bash
-git clone <your-repo-url>
-cd bluetooth-auto-jammer
-chmod +x bj.py
+git clone https://github.com/MADHacker912/BT-PHAAD.git
+cd BT-PHAAD 
 ```
 
 ### 2. Run with Root Privileges
@@ -56,7 +55,7 @@ chmod +x bj.py
 > `hcitool`, `hciconfig`, and `l2ping` all require root/sudo.
 
 ```bash
-sudo python3 bj.py
+sudo python3 BT-PHAAD.py
 ```
 
 ### 3. Workflow
